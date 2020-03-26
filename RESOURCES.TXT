@@ -8,3 +8,10 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
  2.1no need of feature scaling, library already takes care.
  2.2 multiple regressio : Backward elimination
     Statsmodel.api only not Statsmodel.formulae.api
+ 2.3 p value:
+     let say I clain this feature has affect in data-> H1 , bu topposition says it has no affect->H0
+     I will calculate the probsbilty of H0 happending say it P
+     if P> some level(let ay significance level: alphs) : then H0 is true
+     else H1 is true
+     
+     this p is "p value".
