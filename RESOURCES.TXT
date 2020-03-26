@@ -1,0 +1,5 @@
+1. data pre processing : (udemy)
+https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
+
+2. regression: (udemy)
+ no need of feature scaling, library already takes care.
