@@ -3,3 +3,8 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
 
 2. regression: (udemy)
  no need of feature scaling, library already takes care.
+ 
+ 
+3. Backward elimination
+Statsmodel.api only not
+Ztatsmodel.formulae.api
