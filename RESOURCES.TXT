@@ -2,9 +2,9 @@
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
 
 2. regression: (udemy)
- no need of feature scaling, library already takes care.
+ https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f  -for basics.
  
  
-3. Backward elimination
-Statsmodel.api only not
-Ztatsmodel.formulae.api
+ 2.1no need of feature scaling, library already takes care.
+ 2.2 multiple regressio : Backward elimination
+    Statsmodel.api only not Statsmodel.formulae.api
