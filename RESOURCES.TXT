@@ -1,3 +1,6 @@
+0. machine learning resources:
+`  https://www.geeksforgeeks.org/machine-learning/
+
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
 
@@ -15,3 +18,8 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
      else H1 is true
      
      this p is "p value".
+ 2.4 regression types:
+     https://www.listendata.com/2018/03/regression-analysis.html?m=1
+ 
+ 2.5 multiple regression types:
+     https://en.m.wikipedia.org/wiki/Stepwise_regression 
