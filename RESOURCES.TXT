@@ -1,5 +1,9 @@
-0. machine learning resources:
+a. machine learning resources:
 `  https://www.geeksforgeeks.org/machine-learning/
+
+b. machine learning project ideas list:
+    https://study.com/academy/lesson/linear-regression-project-ideas.html (regression specifically)
+    https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/ 
 
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
@@ -8,8 +12,8 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
  https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f  -for basics.
  
  
- 2.1no need of feature scaling, library already takes care.
- 2.2 multiple regressio : Backward elimination
+ 2.1 no need of feature scaling, library already takes care.
+ 2.2 multiple regression : Backward elimination
     Statsmodel.api only not Statsmodel.formulae.api
  2.3 p value:
      let say I clain this feature has affect in data-> H1 , bu topposition says it has no affect->H0
