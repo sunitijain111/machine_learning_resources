@@ -1,4 +1,5 @@
 a. machine learning resources:
+   udemy course 
 `  https://www.geeksforgeeks.org/machine-learning/
 
 b. machine learning project ideas list:
@@ -6,6 +7,16 @@ b. machine learning project ideas list:
     https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/ 
 
 c. whenever spyder says "data_set" is not present , run file by that gree arrow once, working directory might not be set for that file.
+
+d. What is boosting algo?
+    when the preidctors/classifiers are week, we combine then to form a stronog one. This is called boosting algo.
+    https://data-flair.training/blogs/gradient-boosting-algorithm/
+    
+e. What is gradient decent?
+    https://www.geeksforgeeks.org/ml-stochastic-gradient-descent-sgd/?ref=rp
+    it is change in a parameter with respct to the inputs.
+    A gradient is basically the slope of a function; the degree of change of a parameter with the amount of change in another parameter. Mathematically, it can be described as the partial derivatives of a set of parameters with respect to its inputs. The more the gradient, the steeper the slope. Gradient Descent is a convex function.
+Gradient Descent can be described as an iterative method which is used to find the values of the parameters of a function that minimizes the cost function as much as possible.
 
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
@@ -46,4 +57,11 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
     
     2.6.2 when dataset is small, eg, in our polynomial one, we do;t split into train. we don;t waste dataset that we have. We use it all so that we can have best prediction.
      
+    2.7 gradient descent in regression
+        a method to choose coefficients, so that is cost is minimum.
+        https://www.geeksforgeeks.org/gradient-descent-in-linear-regression/
+        here theta1, theeta 2 are b0, b2 of regression equation.
+ 2.7 support vector regressor
+    2.7.1 what is kernel 
+        https://data-flair.training/blogs/svm-kernel-functions/
      
