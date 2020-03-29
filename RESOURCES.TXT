@@ -10,6 +10,14 @@ c. whenever spyder says "data_set" is not present , run file by that gree arrow 
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
 
+    1.1 for test- train split use sklearn.modelselection, not sklean.cross_validation.
+
+    1.2 random state in test_train_split(), ensures that whenever you splt, the train-test set is same.
+    
+    Random state ensures that the splits that you generate are reproducible. Scikit-learn uses random permutations to    generate the splits. The random state that you provide is used as a seed to the random number generator. This ensures that the random numbers are generated in the same order.
+    
+    https://stackoverflow.com/questions/49147774/what-is-random-state-in-sklearn-model-selection-train-test-split-example/49147883#49147883?newreg=20d07e9d357644a2b6da4493338f2974
+
 2. regression: (udemy)
  https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f  -for basics.
  
