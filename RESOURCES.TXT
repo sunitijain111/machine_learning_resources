@@ -39,7 +39,11 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
      https://en.m.wikipedia.org/wiki/Stepwise_regression 
      
  2.6 plynomial linear regression 
-     it is called linear because the relation between y and coffiecients is linear. because at the end we need cofficients.
+    2.6.1  it is called linear because the relation between y and coffiecients is linear. because at the end we need cofficients.  
      likt y = b0 + b1*x + b2*x^2 ..
      y is linearly depdendant on b0, b1, b2, etc.
      had it ben y= (b0+ x*b2)/(b3+ b4* x^4) something, then it would have been non linear.
+    
+    2.6.2 when dataset is small, eg, in our polynomial one, we do;t split into train. we don;t waste dataset that we have. We use it all so that we can have best prediction.
+     
+     
