@@ -40,12 +40,14 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
  https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f  -for basics.
  
  2.0 What is R^2 or R square?
-    in regressino we minimise (yi- y')^2, sum of this of all i from (1 to n) is Ssum.
+    in regressino we minimise (yi- y')^2, sum of this of all i from (1 to n) is Sres (residual).
     also lets find (yi-yavg)^2 sum called Stotal (arround the average.
-    R-sq is (1- (Ssum/ Stotal)
-    closer R-sq to one, it is better.
+    R-sq is (1- (Sres/ Stotal)
+    closer R-sq to one, it is better. (i.e. Sres should be minimised).
     R-sq can be -ve too, i.e. our regression is worst fit.
     
+    Adjusted R-square is modified R- sq. It takes into account for increasing number of variables. Since R-sq always increases with inc number of variable, adjusted R-sq takes care it happens in balalnced way. i.e. it might decrese if new varible is not important.
+    It tells if added varible actuall is a good feature or not.
     It tells how good is our linen as compared to average line.
  2.1 no need of feature scaling, library already takes care.
  2.2 multiple regression : Backward elimination
