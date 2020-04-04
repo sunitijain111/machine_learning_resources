@@ -14,7 +14,7 @@ from sklearn.tree import DecisionTreeRegressor
 reg=  DecisionTreeRegressor(random_state= 0 )
 reg.fit(X,y)
 
-y_pred = regressor.predict([[6.5]])
+y_pred = reg.predict([[6.5]])
 
 # Visualising the Regression results
 plt.scatter(X, y, color = 'red')
