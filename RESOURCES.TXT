@@ -94,5 +94,6 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
    it predicts the category of a obbject from given categorires.
    
    3.1 logistice regression - linear model
-                  
+   
+   3.2 SVM - support vector machien - linear model.               
      
