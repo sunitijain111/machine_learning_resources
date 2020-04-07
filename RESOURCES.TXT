@@ -89,4 +89,10 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
           https://stackoverflow.com/questions/18691084/what-does-1-mean-in-numpy-reshape
  2.9   Decision tree regression
           decision tree are of two types: classification or regression. It is more powerful in multidimentional.  
+
+3. Classification
+   it predicts the category of a obbject from given categorires.
+   
+   3.1 logistice regression - linear model
+                  
      
