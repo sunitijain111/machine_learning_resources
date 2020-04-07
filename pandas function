@@ -28,3 +28,23 @@ https://stackoverflow.com/questions/34682828/extracting-specific-selected-column
 
                                             inplace argument
 no new copy of dataframe is made, chnages are maede within the data frame.                                            
+
+                                               reset_index()
+resets te index . if index is mismanged ot missing, apply this. don'e forget to do
+dataframe = dataframe.reser_index().not ofr this but for every function.
+
+                                                set_index()
+to make a particular column index
+
+                                                 append()
+to append one data frame into another
+df1= df1.append(df2)
+
+                                                   drop()
+to drop a row, df1= df1.drop([0])
+to drop a column df1= df1.drop('sales',1) # 1 is for axis= 1 
+or df1= df1([[12,3,4]], 1)  #column numbers
+
+                                                  apply()
+to apply a change row wise
+df1= df1.appyl( <functino_name>, axis=1)  #do for each row- axis=1. 
