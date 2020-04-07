@@ -1,0 +1,30 @@
+                                                what is CORRWITH
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corrwith.html
+
+                                                    merge
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html
+https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+
+                                                    group_by
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
+
+                                                  pivot_table
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html
+
+                                                     dropna
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
+
+DATA PRE- PROCESSING
+
+                                          HOW TO GET COLUMN NAMES IN PANDAS
+https://stackoverflow.com/questions/19482970/get-list-from-pandas-dataframe-column-headers
+just list(dataframe_name)[0]
+list(dataframe.columns)
+df.colums[[1,2,3,5,10]]
+
+                                          DIFFERENT WAYS TO CREARTE DATA FRAME
+https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/
+https://stackoverflow.com/questions/34682828/extracting-specific-selected-columns-to-new-dataframe-as-a-copy
+
+                                            inplace argument
+no new copy of dataframe is made, chnages are maede within the data frame.                                            
