@@ -24,7 +24,7 @@ f. What is ensemble learning?
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
 
-    1.1 for test- train split use sklearn.modelselection, not sklean.cross_validation.
+    1.1 for test- train split use sklearn.model_selection, not sklean.cross_validation.
 
     1.2 random state in test_train_split(), ensures that whenever you splt, the train-test set is same.
     
