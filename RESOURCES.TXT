@@ -94,6 +94,16 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
    it predicts the category of a obbject from given categorires.
    
    3.1 logistice regression - linear model
-   
+      it tells the likely hoood. probabilty of a item for being in a class.
+      mathematically
+      y= b0 + x* b1 ...eq(1)
+      then it applies sigmoid function to make in it range of 0 to 1 on y.
+      p= 1/(1+ e^(-y))  ...eq(2)
+      
+      put value of y back into eq (1)
+      log(p/(1-p))=  b0 + x* b1.
+      the grapgh is thus transfromed.
+      
+      
    3.2 SVM - support vector machien - linear model.               
      
