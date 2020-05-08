@@ -53,3 +53,9 @@ or df1= df1([[12,3,4]], 1)  #column numbers
                                                   apply()
 to apply a change row wise
 df1= df1.appyl( <functino_name>, axis=1)  #do for each row- axis=1. 
+
+
+                                               accuracy by sklearn
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics 
+regression metrices are differnt than classification
+https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics
