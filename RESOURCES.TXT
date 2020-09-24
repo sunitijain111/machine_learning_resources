@@ -27,7 +27,7 @@ e. What is gradient decent?
 Gradient Descent can be described as an iterative method which is used to find the values of the parameters of a function that minimizes the cost function as much as possible.
 
 f. What is ensemble learning?
-   when we combine two or more alogs or one algo repeatitively so that we arrive at a stringer conclusion , itis called ensemble learning.
+   when we combine two or more alogs or one algo repeatitively so that we arrive at a stringer conclusion , itis called ensemble learning. used in random forest.
 
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
