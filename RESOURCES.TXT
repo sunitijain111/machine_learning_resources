@@ -126,5 +126,14 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
    3.3 Decision Tree
       3.3.1 you don;t ned to feature scale as the values/algorithm i snot based on euclidian distance!
       3.3.2 it may be prone to overfitting
+   
+   3.4 Naive bayse
+      3.4.1 its called naive because it assumes all the variabls detemining the output are independant with respect to each other. it is an assumption. It may be incorrect in real world data.
+      3.4.2 data given->age, salary , predict whether it will drive or walk.
+            the probabilty to walk given X-> his features given of a person to determine result= p(walks|X) = p(X|walks) *p(walks)/ p(X)
+            similarly the probabilty to drive = p(drives|X) = p(X|drives) *p(drives)/ p(X)
+            for comparing these two: we have :  p(X|walks) *p(walks)/ p(X) vs p(X|drives) *p(drives)/ p(X)
+            multiplying bith sides by P(x) we have  p(X|walks) *p(walks)vs p(X|drives) *p(drives)
+            it is a famous result in mamy ML courses.
       
      
