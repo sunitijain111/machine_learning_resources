@@ -10,7 +10,6 @@ dataset = pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
 
-
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
@@ -24,20 +23,50 @@ X_test = sc.transform(X_test)
 # Fitting classifier to the Training set
 # Create your classifier here
 
-
-
 from sklearn.svm import SVC
 
-classifier = SVC(kernel = "linear", random_state =0)
+#rbf
+classifier = SVC(kernel= "rbf", random_state= 0, )
 classifier.fit(X_train, y_train)
-
-y_pred= classifier.predict(X_test)
+# Predicting the Test set results
+y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
 
+#poly deg = 3
+classifier2 = SVC(kernel= "poly", random_state= 0)
+classifier2.fit(X_train, y_train)
+# Predicting the Test set results
+y_pred2 = classifier2.predict(X_test)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm2 = confusion_matrix(y_test, y_pred2)
+
+
+
+#pily deg= 4
+classifier3 = SVC(kernel= "poly", random_state= 0, degree= 4)
+classifier3.fit(X_train, y_train)
+# Predicting the Test set results
+y_pred3 = classifier3.predict(X_test)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm3 = confusion_matrix(y_test, y_pred3)
+
+#sigmoid
+classifier4 = SVC(kernel= "sigmoid", random_state= 0)
+classifier4.fit(X_train, y_train)
+# Predicting the Test set results
+y_pred4 = classifier4.predict(X_test)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm4 = confusion_matrix(y_test, y_pred4)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
