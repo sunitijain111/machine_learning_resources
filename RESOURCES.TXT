@@ -39,6 +39,8 @@ g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pe
      
      precision = (TP) / (TP+FP) --> rememberit as how many true positves i gave out of all positive predicted
      recall = (TP) / (TP+FN)   -->  rememberit as how many true positves i gave out of all actual positives
+     correct = (TP+ Tn)/(total) ->  rememberit as how many correctly predicted
+     error rate: 1-correct
 
 
 1. data pre processing : (udemy)
