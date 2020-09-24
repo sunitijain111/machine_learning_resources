@@ -28,6 +28,18 @@ Gradient Descent can be described as an iterative method which is used to find t
 
 f. What is ensemble learning?
    when we combine two or more alogs or one algo repeatitively so that we arrive at a stringer conclusion , itis called ensemble learning. used in random forest.
+   
+g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pers note: think it as less dangerours, like we predicted a disaster and it didn't come, its okay)   
+   type 2 error -> false negative.
+   confusion matrix:
+             y_predcted
+               0   1
+     y      0 TN   FN
+     actual 1 FP   TP
+     
+     precision = (TP) / (TP+FP) --> rememberit as how many true positves i gave out of all positive predicted
+     recall = (TP) / (TP+FN)   -->  rememberit as how many true positves i gave out of all actual positives
+
 
 1. data pre processing : (udemy)
 https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing-502c993e1caa 
