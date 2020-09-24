@@ -56,6 +56,16 @@ f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1
  
  g. CAP_> cummulaitve accuray model is a beter approach for accuracy testing.
     https://medium.com/@lotass/classification-models-performance-evaluation-c3a91562793 
+    see on curve what is your value of 50%,
+    if X-> your model predction
+      x<60 % ->rubbish
+      x<70 % -> poor
+      x<80 % ->good
+      x<90 % -> very good
+      x<100% -> too good, maybe overfiting
+      
+    the perfect line you see in cap curve , made up of 2 linear lines. It represents teh hypothetical situation, where if you alwasy pick right cusomer to advertise to, i.e. first 10% you choose was exactly same as those 10% you actaully brought the car!therefore it goes up like a rocket. Meett maxima and then stops , a staright horizontal line.  
+      
 
 
 1. data pre processing : (udemy)
