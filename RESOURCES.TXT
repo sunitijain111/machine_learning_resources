@@ -116,5 +116,8 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
       3.1.1 What is p(hat) p^ (actuall, is like i cap in vectors, x^, y^,z^)
       it denotes the probability of something which can b epredicted.   
       
-   3.2 SVM - support vector machien - linear model.               
+   3.2 SVM - support vector machine 
+      3.2.1 it used a kernel that transforms the non-linearly saperable data from n - dimension to (n+1)     dimensions. Then the data becomes saperable by line/ plane/ hyperplane.
+      3.2.2 types of SVM -> gaussian ,sigmoidal, etc.
+      3.2.3 we can combine 2 svms if needed, one svm doesn't affect others, since points at distant values have function value '0'.
      
