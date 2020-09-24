@@ -41,7 +41,9 @@ g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pe
      recall = (TP) / (TP+FN)   -->  rememberit as how many true positves i gave out of all actual positives
      correct = (TP+ Tn)/(total) ->  rememberit as how many correctly predicted
      error rate: 1-correct
- f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1dfe07ca7 
+
+
+f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1dfe07ca7 
     y_predcted
                0   1
      y      0 9700 150
@@ -51,6 +53,9 @@ g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pe
      y      0 9850 0
      actual 1 150  0 acuracy: 98.5%
      predicting everything negative has more accuracy!!
+ 
+ g. CAP_> cummulaitve accuray model is a beter approach for accuracy testing.
+    https://medium.com/@lotass/classification-models-performance-evaluation-c3a91562793 
 
 
 1. data pre processing : (udemy)
