@@ -124,6 +124,7 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
       http://www.cs.otago.ac.nz/staffpriv/mccane/publications/Szymanski2011Visualising.pdf
    
    3.3 Decision Tree
-      3.3.1 you don;t ned to feature scale as the values/algorithm i snot based on euclidian distance!.    
+      3.3.1 you don;t ned to feature scale as the values/algorithm i snot based on euclidian distance!
+      3.3.2 it may be prone to overfitting
       
      
