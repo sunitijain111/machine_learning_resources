@@ -26,7 +26,7 @@ e. What is gradient decent?
     A gradient is basically the slope of a function; the degree of change of a parameter with the amount of change in another parameter. Mathematically, it can be described as the partial derivatives of a set of parameters with respect to its inputs. The more the gradient, the steeper the slope. Gradient Descent is a convex function.
 Gradient Descent can be described as an iterative method which is used to find the values of the parameters of a function that minimizes the cost function as much as possible.
 
-f. What is ensemble learning?
+f. What is ensemble learning? aka **stacking** 
    when we combine two or more alogs or one algo repeatitively so that we arrive at a stringer conclusion , itis called ensemble learning. used in random forest.
    
 g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pers note: think it as less dangerours, like we predicted a disaster and it didn't come, its okay)   
@@ -66,6 +66,32 @@ f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1
       
     the perfect line you see in cap curve , made up of 2 linear lines. It represents teh hypothetical situation, where if you alwasy pick right cusomer to advertise to, i.e. first 10% you choose was exactly same as those 10% you actaully brought the car!therefore it goes up like a rocket. Meett maxima and then stops , a staright horizontal line.  
       
+ h. Bias and Variance
+   https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229  
+   
+   bias -> diff bwt avg and predicted. 
+    Model with high bias pays very little attention to the training data and oversimplifies the model.
+    
+    In supervised learning,** underfitting** happens when a model unable to capture the underlying pattern of the data. These models usually have **high bias and low variance** . It happens when we have very less amount of data to build an accurate model or when we try to build a linear model with a nonlinear data. Also, these kind of models are very simple to capture the complex patterns in data like Linear and logistic regression.
+    
+   In case of high bias we can:
+   Try to add more features
+   Try to make the model more complicated (add polynomial features)
+   Try to fit the data better. apply regularization techniques (decrease lambda)
+   
+    
+   Variance -> variation of predicted data
+    Model with high variance pays a lot of attention to training data and does not generalize on the data which it hasn’t seen before . As a result, such models perform very well on training data but has high error rates on test data.
+    
+    In supervised learning, **overfitting happens** when our model captures the noise along with the underlying pattern in data. It happens when we train our   model a lot over noisy dataset. These models have ** low bias and high variance**. These models are very complex like Decision trees which are prone to overfitting.
+
+Some of the most common techniques to resolve cases of high Variance would be:
+add more training examples.
+Try smaller sets of features (because you are overfitting). 
+Try dimensionality reduction techniques. 
+Get rid of irrelevant/redundant features.
+Use Regularization techniques to prevent model overfitting. (increase lambda)
+
 
 
 1. data pre processing : (udemy)
