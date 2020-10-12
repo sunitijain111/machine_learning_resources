@@ -1,7 +1,7 @@
 a. machine learning resources:
    udemy course
 `  https://www.geeksforgeeks.org/machine-learning/
-   coursera courses 
+   coursera courses
 
 b. machine learning project ideas list: nice sources
     https://study.com/academy/lesson/linear-regression-project-ideas.html (regression specifically)
