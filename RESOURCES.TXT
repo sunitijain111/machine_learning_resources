@@ -1,5 +1,5 @@
 a. machine learning resources:
-   udemy course  
+   udemy course
 `  https://www.geeksforgeeks.org/machine-learning/
    coursera courses 
 
