@@ -202,3 +202,4 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
             it is a famous result in mamy ML courses.
       
      
+todp clustering notes
