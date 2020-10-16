@@ -1,2 +1,2 @@
 1. expected 2-D array got 1-D iinstead
- X=pd.DataFrame(X)
+ X=pd.DataFrame(X) 
