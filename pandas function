@@ -13,7 +13,7 @@ right RIGHT OUTER JOIN  Use keys from right frame only
 outer FULL OUTER JOIN   Use union of keys from both frames
 inner INNER JOIN        Use intersection of keys from both frames
 
-                                                    group_by
+                                                    group_by 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
 
                                                   pivot_table
