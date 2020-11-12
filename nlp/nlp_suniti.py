@@ -47,3 +47,17 @@ y_pred = classifier.predict(X_test)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+
+# Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+# Precision = TP / (TP + FP)
+
+# Recall = TP / (TP + FN)
+
+# F1 Score = 2 * Precision * Recall / (Precision + Recall)
+
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
+print("accuracy score : ", accuracy_score(y_test, y_pred))
+print("precision score : ", precision_score(y_test, y_pred))
+print("recall score : ", recall_score(y_test, y_pred))
+print("f1 score : ", f1_score(y_test, y_pred))
