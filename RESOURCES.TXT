@@ -6,7 +6,7 @@ a. machine learning resources:
 b. machine learning project ideas list: nice sources
     https://study.com/academy/lesson/linear-regression-project-ideas.html (regression specifically)
     https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/    
-    https://data-flair.training/blogs/machine-learning-project-ideas/
+    https://data-flair.training/blogs/machine-learning-project-ideas/  best
     REgression:
       1. stock prices.
       2. image scan of brain (mri ) and tell if person is happy or sad
