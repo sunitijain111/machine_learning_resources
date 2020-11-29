@@ -201,5 +201,10 @@ https://hackernoon.com/what-steps-should-one-take-while-doing-data-preprocessing
             multiplying bith sides by P(x) we have  p(X|walks) *p(walks)vs p(X|drives) *p(drives)
             it is a famous result in mamy ML courses.
       
-     
+7 NLP
+links to study
+1. lda  - https://towardsdatascience.com/nlp-extracting-the-main-topics-from-your-dataset-using-lda-in-minutes-21486f5aa925
+2. td- idf https://medium.com/analytics-vidhya/tf-idf-term-frequency-technique-easiest-explanation-for-text-classification-in-nlp-with-code-8ca3912e58c3
+3. evaluation metrices - https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff 
+
 todp clustering notes
