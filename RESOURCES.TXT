@@ -207,4 +207,4 @@ links to study
 2. td- idf https://medium.com/analytics-vidhya/tf-idf-term-frequency-technique-easiest-explanation-for-text-classification-in-nlp-with-code-8ca3912e58c3
 3. evaluation metrices - https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff 
 
-todp clustering notes
+todp clustering notes   .
