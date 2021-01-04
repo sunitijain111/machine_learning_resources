@@ -1,4 +1,4 @@
-a. machine learning resources: 
+a. machine learning resources:
    udemy course
 `  https://www.geeksforgeeks.org/machine-learning/
    coursera courses
