@@ -212,3 +212,7 @@ links to study
 
 8.1 cost functions: https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
 todp clustering notes   .
+
+8.2 maths behind gradient descent: https://iamtrask.github.io/2015/07/27/python-network-part2/ 
+
+8.3 introduction to neural network book uploaded: http://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf 
