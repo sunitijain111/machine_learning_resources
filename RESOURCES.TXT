@@ -216,3 +216,5 @@ todp clustering notes   .
 8.2 maths behind gradient descent: https://iamtrask.github.io/2015/07/27/python-network-part2/ 
 
 8.3 introduction to neural network book uploaded: http://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf 
+
+8.4 what is dense layer in keras -> it is output= input * kernal i.e output is the function of input dot product  to kernal (acticvation function). https://medium.com/@hunterheidenreich/understanding-keras-dense-layers-2abadff9b990 
