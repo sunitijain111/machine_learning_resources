@@ -44,6 +44,7 @@ g. type 1 errro ->false opsitive: we predicted something me happe it didn;t. (pe
 
 
 f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1dfe07ca7 
+   hamming score etc: https://deepchecks.com/how-to-check-the-accuracy-of-your-machine-learning-model/
     y_predcted
                0   1
      y      0 9700 150
