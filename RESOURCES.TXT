@@ -53,6 +53,8 @@ f. accuracy paradox: https://medium.com/datadriveninvestor/accuracy-paradox-87b1
      y      0 9850 0
      actual 1 150  0 acuracy: 98.5%
      predicting everything negative has more accuracy!!
+     
+     accuracy= correct predictions / total preictions
  
  g. CAP_> cummulaitve accuray model is a beter approach for accuracy testing.
     https://medium.com/@lotass/classification-models-performance-evaluation-c3a91562793 
